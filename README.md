@@ -6,25 +6,42 @@ Storytelling has evolved significantly with the advent of Artificial Intelligenc
 
 ## Features
 Story Generation: Automatically generate creative stories based on user prompts or predefined themes.
+
 Image Generation: Generate images that match the story using AI-based models.
+
 Dynamic Layout: The story and image containers adjust their height dynamically based on content. 
+
 Grid-Based Image Display: Images are arranged in a responsive grid format.
+
 Smooth Scrolling & Overflow Handling: If the content exceeds a certain height, smooth scrolling is enabled.
 
 ## Requirements
 HARDWARE ENVIRONMENT
+
 Processor	: Pentium Dual Core 2.00GH
+
 Hard disk	: 120 GB
+
 RAM : 2GB (minimum)
+
 Keyboard	: 110 keys enhanced
+
 SOFTWARE ENVIRONMENT
+
 Operating system	: Windows7 (with service pack 1), 8, 8.1 ,10 and 11
+
 Language	: Python
+
 TECHNOLOGIES USED
+
 Frontend: HTML, CSS, JavaScript
+
 Backend: Flask (Python), Asyncio, Requests
+
 AI & ML: Gemini AI, Hugging Face FLUX.1-dev
+
 Database: Google Sheets
+
 Cloud Integration: Google Apps Script
 
 
@@ -50,9 +67,13 @@ The Story Generation with Images project showcases the successful application of
 
 ## Articles published / References
 1.Hong, X., Sayeed, A., Mehra, K., Demberg, V., & Schiele, B. (2023). Visual writing prompts: Character-grounded story generation with curated image sequences. Transactions of the Association for Computational Linguistics, 11, 565-581.
+
 2.Fan, A., Lewis, M., & Dauphin, Y. (2019). Strategies for structuring story generation. arXiv preprint arXiv:1902.01109.
+
 3.Liu, T., Wang, K., Li, S., van de Weijer, J., Khan, F. S., Yang, S., ... & Cheng, M. M. (2025). One-Prompt-One-Story: Free-Lunch Consistent Text-to-Image Generation Using a Single Prompt. arXiv preprint arXiv:2501.13554.
+
 4.Li, D., Sohn, S. S., Zhang, S., Chang, C. J., & Kapadia, M. (2024, November). From Words to Worlds: Transforming One-line Prompts into Multi-modal Digital Stories with LLM Agents. In Proceedings of the 17th ACM SIGGRAPH Conference on Motion, Interaction, and Games (pp. 1-12).
+
 5.Maharana, A., Hannan, D., & Bansal, M. (2022, October). Storydall-e: Adapting pretrained text-to-image transformers for story continuation. In European Conference on Computer Vision (pp. 70-87). Cham: Springer Nature Switzerland.
 
 
