@@ -1,58 +1,60 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## AI Fabula - Generative Storytelling and Visual Augmentation Platform
+
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Storytelling has evolved significantly with the advent of Artificial Intelligence (AI), allowing for the seamless generation of narratives and visuals. This project, AI Fabula – Generative Storytelling and Visual Augmentation Platform, aims to leverage Gemini-1.5-Flash and Hugging Face FLUX.1-dev to create a system that takes a user prompt as input and generates an engaging story with corresponding AI-generated images. 
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Story Generation: Automatically generate creative stories based on user prompts or predefined themes.
+Image Generation: Generate images that match the story using AI-based models.
+Dynamic Layout: The story and image containers adjust their height dynamically based on content. 
+Grid-Based Image Display: Images are arranged in a responsive grid format.
+Smooth Scrolling & Overflow Handling: If the content exceeds a certain height, smooth scrolling is enabled.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+HARDWARE ENVIRONMENT
+Processor	: Pentium Dual Core 2.00GH
+Hard disk	: 120 GB
+RAM : 2GB (minimum)
+Keyboard	: 110 keys enhanced
+SOFTWARE ENVIRONMENT
+Operating system	: Windows7 (with service pack 1), 8, 8.1 ,10 and 11
+Language	: Python
+TECHNOLOGIES USED
+Frontend: HTML, CSS, JavaScript
+Backend: Flask (Python), Asyncio, Requests
+AI & ML: Gemini AI, Hugging Face FLUX.1-dev
+Database: Google Sheets
+Cloud Integration: Google Apps Script
+
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+This graphic provides a concise and understandable description of all the entities currently integrated into the system. The diagram shows how the many actions and choices are linked together. You might say that the whole process and how it was carried out is a picture. The figure below shows the functional connections between various entities.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Screenshot 2025-02-24 233855](https://github.com/user-attachments/assets/4ba80969-8930-44b6-b7a6-e11c21ed51cc)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
+The prediction step in the narrative generation system is the process of converting user inputs into coherent stories with visually appropriate images through Gemini AI and Hugging Face FLUX.1-dev. Upon a user's input, the Flask-based backend asynchronously processes the input to allow for efficient handling of multiple requests. The system tokenizes and encodes the input text first using pre-trained transformer-based model embeddings, converting it into a contextualized representation. The AI model subsequently anticipates the most contextually appropriate story details, guaranteeing coherence and logical continuity. Attention mechanism in the transformer model ensures that the output text is consistent, while reinforcement learning with human feedback (RLHF) continuously improves quality. The story generation model assesses language features such as narrative structure, entity relationships, and sentiment, enabling it to respond appropriately to various storytelling styles.
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![WhatsApp Image 2025-02-24 at 23 31 38](https://github.com/user-attachments/assets/a929fcaf-b75d-4bcf-89b9-3ebc50f289ec)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Story Generation with Images project showcases the successful application of artificial intelligence in creative narrative storytelling. With Google Gemini for generating interesting stories and Hugging Face FLUX.1 for creating high-quality images, the system converts user input into descriptive stories with associated images. The use of asynchronous processing guarantees seamless operation, allowing stories and images to be generated simultaneously without interruptions. This provides an improved user experience, making the platform more responsive and efficient.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.Hong, X., Sayeed, A., Mehra, K., Demberg, V., & Schiele, B. (2023). Visual writing prompts: Character-grounded story generation with curated image sequences. Transactions of the Association for Computational Linguistics, 11, 565-581.
+2.Fan, A., Lewis, M., & Dauphin, Y. (2019). Strategies for structuring story generation. arXiv preprint arXiv:1902.01109.
+3.Liu, T., Wang, K., Li, S., van de Weijer, J., Khan, F. S., Yang, S., ... & Cheng, M. M. (2025). One-Prompt-One-Story: Free-Lunch Consistent Text-to-Image Generation Using a Single Prompt. arXiv preprint arXiv:2501.13554.
+4.Li, D., Sohn, S. S., Zhang, S., Chang, C. J., & Kapadia, M. (2024, November). From Words to Worlds: Transforming One-line Prompts into Multi-modal Digital Stories with LLM Agents. In Proceedings of the 17th ACM SIGGRAPH Conference on Motion, Interaction, and Games (pp. 1-12).
+5.Maharana, A., Hannan, D., & Bansal, M. (2022, October). Storydall-e: Adapting pretrained text-to-image transformers for story continuation. In European Conference on Computer Vision (pp. 70-87). Cham: Springer Nature Switzerland.
+
 
 
 
